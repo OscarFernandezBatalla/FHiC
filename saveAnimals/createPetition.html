@@ -196,12 +196,36 @@
 			<div class="contact_form_container">
 				<div class="contact_form_title">Start a Petition</div>
 				<form action="#" class="contact_form" id="contact_form">
-					<input type="text" class="contact_input" placeholder="Write a Title..." required="required">
+					<!--<input type="text" class="contact_input" placeholder="Write a Title..." required="required">
 					<input type="email" class="contact_input" placeholder="Search" required="required">
 					<input type="text" class="contact_input" placeholder="Subject" required="required">
 					<textarea name="contact_textarea" id="contact_textarea" class="contact_textarea contact_input" placeholder="Message" required="required"></textarea>
-					<button class="button contact_button"><span>Send Message</span></button>
+					<button class="button contact_button"><span>Send Message</span></button>-->
+
+					<input type="text" class="contact_input" placeholder="Write a Title..." required="required">
+					<textarea name="contact_textarea" id="contact_textarea" class="contact_textarea contact_input" placeholder="Summorize your idea" required="required"></textarea>
+					<br><br><input type="text" class="contact_input" placeholder="Who can help with this idea" required="required">
+					<textarea name="contact_textarea" id="contact_textarea" class="contact_textarea contact_input" placeholder="explain the problem you want to solve in depth" required="required"></textarea>
+					<br><br>
+
+
 				</form>
+
+				<label for="input-folder-3">Select images to upload</label>
+				<div class="file-loading">
+				<input id="input-folder-3" name="input-folder-3[]" type="file" multiple>
+				</div>
+				<script>
+				$(document).on('ready', function() {
+				$("#input-folder-3").fileinput({
+					uploadUrl: "/file-upload-batch/2",
+					hideThumbnailContent: true // hide image, pdf, text or other content in the thumbnail preview
+					});
+				});
+				</script>
+				<br>
+				<button class="button contact_button"><span>Save and show preview</span></button>
+
 			</div>
 
 				<!-- </div> -->
