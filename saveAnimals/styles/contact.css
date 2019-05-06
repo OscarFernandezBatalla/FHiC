@@ -1195,7 +1195,8 @@ section
 	color: #bbbbbb;
 	margin-top: 7px;
 }
-.checkbox
-{
-	margin-right: 6px;
+ hr{
+	width: 100%;
+	background: #FFFFFF;
+	size: 50px;
 }
