@@ -29,6 +29,7 @@
 
 .home_content_container .container { margin-top: 80px; }
 
+<<<<<<< HEAD
 .intro__title {
     text-align: center;
     color: #212121;
@@ -284,3 +285,5 @@
 .preview_check .form-check-label { padding-left: 10px; }
 .buttons_container { margin-top: 114px; }
 .contact { padding-bottom: 115px; }
+=======
+>>>>>>> d18c78eb52cc247b0053f87323f3538fab2b6778
