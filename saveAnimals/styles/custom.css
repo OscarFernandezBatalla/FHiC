@@ -20,14 +20,3 @@
 
 .home_content_container .container { margin-top: 80px; }
 
-/* petition boxes */
-.intro_body {
-    padding: 30px 39px;
-    height: 100%;
-    position: absolute;
-}
-
-.intro_item {
-    min-height: 420px;
-    overflow: hidden;
-}
