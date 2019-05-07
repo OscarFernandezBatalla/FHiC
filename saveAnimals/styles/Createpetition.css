@@ -594,7 +594,8 @@ section
 	top: 0;
 	left: 0;
 	width: 100%;
-	z-index: 999;
+	background: #FFFFFF;
+	z-index: 100;
 }
 .header.scrolled
 {
@@ -1193,4 +1194,9 @@ section
 	font-weight: 500;
 	color: #bbbbbb;
 	margin-top: 7px;
+}
+ hr{
+	width: 100%;
+	background: #FFFFFF;
+	size: 50px;
 }
