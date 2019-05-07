@@ -1353,3 +1353,9 @@ section
 .account ul { list-style: none; margin: 0; padding: 0; }
 .account ul a { line-height: 0; }
 .account .material-icons {color: #4c4c4c;     font-size: 35px; }
+
+.pagination{
+	position: center;
+	color:black;
+	margin-right: 60px;
+}
